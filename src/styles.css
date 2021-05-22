@@ -1,0 +1,40 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.card {
+  box-shadow: 5px 5px 4px rgb(185, 185, 185);
+  background-color: white;
+  width: 25%;
+  margin: 1em;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#pr {
+  margin-left: 20px;
+}
+#title {
+  color: #cfcfcf;
+}
+
+.green {
+  color: #037703;
+  background-color: rgb(117, 224, 117);
+  border-radius: 15px;
+  padding: 1.5px 9px;
+}
+
+.red {
+  color: #8d0000;
+  background-color: rgb(255, 113, 113);
+  padding: 1.5px 9px;
+  border-radius: 15px;
+}
